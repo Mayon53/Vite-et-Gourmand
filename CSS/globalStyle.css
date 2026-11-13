@@ -1,6 +1,19 @@
 /* page css, regroupant le css global comme les couleurs, la typographie, ou encore le design responsive*/
 
+:root {
+    /*mise en place couleurs boobstrap/site*/
+    --color-btn: #5E172A;
+    --color-fond-nav-footer: #5E172A;
+    --color-fond-green: #4B4F14;
+    --color-fond-yellow: #FDD684;
+    --color-fond-light: #F4F3F3;
+    --color-text-dark: #212B32;
+    --color-text-light: #F4F3F3;
+    /*mise en place police de texte*/
+    --font-family-h1-h2: "Playfair Display", serif;
+    --font-family-text-subtitle: "Montserrat", sans-serif;
+}
 
 body {
-    background-color: red;
+    font-family: var(--font-family-text-subtitle);
 }
