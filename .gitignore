@@ -1,0 +1,7 @@
+# Fichiers système Mac
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Fichiers de configuration éditeur
+.vscode/
