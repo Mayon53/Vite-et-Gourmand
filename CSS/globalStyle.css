@@ -7,18 +7,24 @@
     --bs-light: #F4F3F3;
     --bs-light-rgb: 244, 243, 243;
     --bs-dark: #212B32;
-    --bs-dark-rgb: rgb(33, 43, 50);
-    --color-fond-green: #4B4F14;
-    --color-fond-yellow: #FDD684;
-    --color-fond-light: #F4F3F3;
-    --color-text-dark: rgb(33, 43, 50);
+    --bs-dark-rgb: 33, 43, 50;
+    --bs-secondary: #4B4F14;
+    --bs-secondary-rgb: 75, 79, 20;
+    --bs-tertiary: #FDD684;
+    --bs-tertiary-rgb: 253, 214, 132;
+
     /*mise en place police de texte*/
     --font-family-h1-h2: "Playfair Display", serif;
     --font-family-text-subtitle: "Montserrat", sans-serif;
+    /*Design couleur bouton*/
+    --btn-primary: #5E172A;
+    --btn-primary-rgb: 94, 23, 42;
 }
 
 body {
     font-family: var(--font-family-text-subtitle);
+    margin: 0;
+    padding: 0;
 }
 
 /*css du header*/
@@ -45,4 +51,16 @@ body {
 .row {
     padding-top: 3%;
     padding-bottom: 3%;
+}
+
+/*css de BigTitle*/
+.titreBT {
+    font-size: 3rem;
+    font-family: var(--font-family-h1-h2);
+    font-weight: lighter;
+}
+
+/*css du bouton connexion*/
+.btn-primary {
+    font-size: 1.5rem;
 }
