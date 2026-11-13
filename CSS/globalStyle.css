@@ -2,13 +2,16 @@
 
 :root {
     /*mise en place couleurs boobstrap/site*/
-    --color-btn: #5E172A;
-    --color-fond-nav-footer: #5E172A;
+    --bs-primary: #5E172A;
+    --bs-primary-rgb: 94, 23, 42;
+    --bs-light: #F4F3F3;
+    --bs-light-rgb: 244, 243, 243;
+    --bs-dark: #212B32;
+    --bs-dark-rgb: rgb(33, 43, 50);
     --color-fond-green: #4B4F14;
     --color-fond-yellow: #FDD684;
     --color-fond-light: #F4F3F3;
-    --color-text-dark: #212B32;
-    --color-text-light: #F4F3F3;
+    --color-text-dark: rgb(33, 43, 50);
     /*mise en place police de texte*/
     --font-family-h1-h2: "Playfair Display", serif;
     --font-family-text-subtitle: "Montserrat", sans-serif;
@@ -16,4 +19,23 @@
 
 body {
     font-family: var(--font-family-text-subtitle);
+}
+
+.navbar-brand {
+    font-family: var(--font-family-h1-h2);
+    font-size: 4rem;
+}
+
+.nav-item,
+.dropdown-menu {
+    padding: 3%;
+}
+
+.container-fluid {
+    margin: 5% 5% 2% 5%;
+}
+
+.dropdown-menu :hover {
+    background-color: #4B4F14;
+
 }
