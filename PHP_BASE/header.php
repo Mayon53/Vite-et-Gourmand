@@ -1,4 +1,3 @@
-<header>
     <nav class="navbar navbar-expand-lg bg-primary">
         <div class="container-fluid">
             <a class="navbar-brand text-light w-50" href="#">VITE & GOURMAND</a>
@@ -34,6 +33,3 @@
             </div>
         </div>
     </nav>
-
-
-</header>
