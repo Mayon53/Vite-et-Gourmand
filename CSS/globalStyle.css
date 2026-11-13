@@ -10,8 +10,8 @@
     --bs-dark-rgb: 33, 43, 50;
     --bs-secondary: #4B4F14;
     --bs-secondary-rgb: 75, 79, 20;
-    --bs-tertiary: #FDD684;
-    --bs-tertiary-rgb: 253, 214, 132;
+    --bs-warning: #FDD684;
+    --bs-warning-rgb: 253, 214, 132;
 
     /*mise en place police de texte*/
     --font-family-h1-h2: "Playfair Display", serif;

@@ -16,6 +16,8 @@
         die('Page 404');
     }
     ?>
+    <?php if (isset($pageCSS)) : ?>
+        <link rel="stylesheet" href='<?= $pageCSS ?>'> <?php endif; ?>
 </head>
 
 <body>

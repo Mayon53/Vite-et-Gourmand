@@ -1,0 +1,16 @@
+.conteneur {
+    max-width: 1200px;
+    margin: auto;
+    padding: 5% 0;
+
+
+}
+
+.container .titreAccueil {
+    font-family: var(--font-family-h1-h2);
+    margin-bottom: 5%;
+}
+
+p {
+    padding-bottom: 5%;
+}
