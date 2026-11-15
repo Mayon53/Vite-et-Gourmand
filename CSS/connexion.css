@@ -1,0 +1,22 @@
+body {
+    color: var(--bs-dark);
+}
+
+
+.conteneur {
+    max-width: 1200px;
+    margin: auto;
+    padding: 5% 0;
+
+}
+
+.titreForm,
+.welcome {
+    font-family: var(--font-family-h1-h2);
+}
+
+.form-check-label,
+.noLogin,
+.mdpRules {
+    font-weight: lighter;
+}

@@ -24,7 +24,7 @@
                         <a class="nav-link text-light" href="#">GALERIE</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="#">CONNEXION</a>
+                        <a class="nav-link text-light" href="/PHP/connexion.php">CONNEXION</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-light" href="#">CONTACT</a>
