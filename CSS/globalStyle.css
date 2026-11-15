@@ -19,7 +19,9 @@
     /*Design couleur bouton*/
     --btn-primary: #5E172A;
     --btn-primary-rgb: 94, 23, 42;
+
 }
+
 
 body {
     font-family: var(--font-family-text-subtitle);

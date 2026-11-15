@@ -1,0 +1,153 @@
+<body>
+    <?php
+    $pageCSS = '/../CSS/menu.css';
+    define('HEAD_AUTH_GRANTED', true);
+    require_once __DIR__ . '/../PHP_BASE/head.php';
+    ?>
+    <header>
+        <?php
+        require_once __DIR__ . '/../PHP_BASE/header.php';
+        ?>
+    </header>
+    <main>
+        <div class="container-BT-fluid d-flex flex-row m-0 p-0 ">
+            <div class="container-img w-70 p-0 m-0">
+                <img class="img-fluid" src="/../Images/BigTitleAccueil.png" alt="">
+            </div>
+            <div class="container d-flex flex-column justify-content-center bg-secondary ps-4">
+                <div class="p-5 fs-1 ps-0">
+                    <h2 class="titreBT">MENUS</h2>
+                </div>
+                <div class="pBT fs-4">
+                    <p>Dégustez nos menus de saison,
+                        </br>élaborés avec des produits choisis avec soin,
+                        </br>respectant un circuit court et provenant de notre belle région.</p>
+                </div>
+                <div class="btnBT mt-4">
+                    <a class="btn btn-primary bg-primary border-0 rounded-0 ps-3 pe-3" href="#">CONNEXION</a>
+                </div>
+            </div>
+        </div>
+        <div class="container-Menu1 bg-light pb-3">
+            <div class="conteneur d-flex flex-row">
+                <div class="conteneur-text w-50 d-flex flex-column justify-content-center ps-4">
+                    <div class="sous-containeur">
+                        <h2 class="titreMenu fs-1">L'INCONTOURNABLE BORDELAIS</h2>
+                    </div>
+                    <div class="pBT fs-5">
+                        <p>Redécouvrez les plats traditionnels de notre belle région, cuisinés maison à partir des meilleurs produits locaux.
+                        </p>
+                    </div>
+                    <div class="pBT fs-5">
+                        <p>
+                            PERSONNE MIN : 2
+                        </p>
+                    </div>
+                    <div class="pBT fs-5">
+                        <p>
+                            35,00 TTC/PERSONNE
+                        </p>
+                    </div>
+                </div>
+                <div class="container-img w-50 p-0 m-0">
+                    <img class="img-fluid" src="/../Images/MenuIncontournable.png" alt="">
+                </div>
+            </div>
+            <div class="bouton text-center">
+                <a class="btn btn-primary bg-primary border-0 rounded-0 ps-3 pe-3 mx-auto" href="#">VOIR LE MENU</a>
+            </div>
+        </div>
+        <div class="container-Menu2 bg-warning pb-3">
+            <div class="conteneur d-flex flex-row-reverse">
+                <div class="conteneur-text w-50 d-flex flex-column justify-content-center ps-4">
+                    <div class="sous-containeur">
+                        <h2 class="titreMenu fs-1">LE JARDIN DE BORDEAUX</h2>
+                    </div>
+                    <div class="pBT fs-5">
+                        <p>Une cuisine végétarienne gourmande et de saison, qui met à l'honneur les légumes et récoltes de nos producteurs locaux.
+                        </p>
+                    </div>
+                    <div class="pBT fs-5">
+                        <p>
+                            PERSONNE MIN : 2
+                        </p>
+                    </div>
+                    <div class="pBT fs-5">
+                        <p>
+                            35,00 TTC/PERSONNE
+                        </p>
+                    </div>
+                </div>
+                <div class="container-img w-50 p-0 m-0">
+                    <img class="img-fluid" src="/../Images/Menu2Vegge.png" alt="">
+                </div>
+            </div>
+            <div class="bouton text-center">
+                <a class="btn btn-primary bg-primary border-0 rounded-0 ps-3 pe-3 mx-auto" href="#">VOIR LE MENU</a>
+            </div>
+        </div>
+        <div class="container-Menu3 bg-light pb-3">
+            <div class="conteneur d-flex flex-row">
+                <div class="conteneur-text w-50 d-flex flex-column justify-content-center ps-4">
+                    <div class="sous-containeur">
+                        <h2 class="titreMenu fs-1">LE BANQUET DES CHARTRONS</h2>
+                    </div>
+                    <div class="pBT fs-5">
+                        <p>Un menu festif et généreux qui met à l'honneur tout le savoir-faire et les saveurs d'exception de notre gastronomie bordelaise.
+                        </p>
+                    </div>
+                    <div class="pBT fs-5">
+                        <p>
+                            PERSONNE MIN : 2
+                        </p>
+                    </div>
+                    <div class="pBT fs-5">
+                        <p>
+                            55,00 TTC/PERSONNE
+                        </p>
+                    </div>
+                </div>
+                <div class="container-img w-50 p-0 m-0">
+                    <img class="img-fluid" src="/../Images/Menu3.png" alt="">
+                </div>
+            </div>
+            <div class="bouton text-center">
+                <a class="btn btn-primary bg-primary border-0 rounded-0 ps-3 pe-3 mx-auto" href="#">VOIR LE MENU</a>
+            </div>
+        </div>
+        <div class="container-Menu4 bg-warning pb-3">
+            <div class="conteneur d-flex flex-row-reverse">
+                <div class="conteneur-text w-50 d-flex flex-column justify-content-center ps-4">
+                    <div class="sous-containeur">
+                        <h2 class="titreMenu fs-1">LES TRESORS DU BASSIN</h2>
+                    </div>
+                    <div class="pBT fs-5">
+                        <p>Une invitation iodée et raffinée mettant à l'honneur les poissons et produits frais de notre littoral.
+                        </p>
+                    </div>
+                    <div class="pBT fs-5">
+                        <p>
+                            PERSONNE MIN : 2
+                        </p>
+                    </div>
+                    <div class="pBT fs-5">
+                        <p>
+                            40,00 TTC/PERSONNE
+                        </p>
+                    </div>
+                </div>
+                <div class="container-img w-50 p-0 m-0">
+                    <img class="img-fluid" src="/../Images/Menu4.png" alt="">
+                </div>
+            </div>
+            <div class="bouton text-center">
+                <a class="btn btn-primary bg-primary border-0 rounded-0 ps-3 pe-3 mx-auto" href="#">VOIR LE MENU</a>
+            </div>
+        </div>
+        <footer>
+            <?php
+            require_once __DIR__ . '/../PHP_BASE/footer.php';
+            ?>
+        </footer>
+
+        <body>

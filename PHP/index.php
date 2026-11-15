@@ -45,7 +45,7 @@
                     </div>
                 </div>
             </div>
-            <div class="container-commande">
+            <div class="container-commande bg-light">
                 <div class="conteneur d-flex flex-row-reverse">
                     <div class="conteneur-text w-50 d-flex flex-column justify-content-center ps-4">
                         <div class="sous-containeur">

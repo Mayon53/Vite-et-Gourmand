@@ -7,10 +7,10 @@
             <div class="collapse navbar-collapse d-flex justify-content-between" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active text-light" aria-current="page" href="#">HOME</a>
+                        <a class="nav-link active text-light" aria-current="page" href="/PHP/index.php">HOME</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle text-light" href="/PHP/menu.php" data-bs-toggle="dropdown" aria-expanded="false">
                             MENU
                         </a>
                         <ul class="dropdown-menu bg-primary">
