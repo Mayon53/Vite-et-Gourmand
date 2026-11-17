@@ -15,7 +15,7 @@
                 <img class="img-fluid" src="/../Images/BigTitleAccueil.png" alt="">
             </div>
             <div class="container d-flex flex-column justify-content-center bg-secondary ps-4">
-                <div class="p-5 fs-1 ps-0">
+                <div class="p-5 fs-1 ps-0 text-center text-lg-center">
                     <h2 class="titreBT">CONNEXION</h2>
                 </div>
                 <div class="pBT fs-4">
@@ -71,5 +71,5 @@
         require_once __DIR__ . '/../PHP_BASE/footer.php';
         ?>
     </footer>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/js/bootstrap.bundle.min.js" integrity="sha384-WyOxWvTyr1QaMPfiPJSv76iReVthorl5uWlFtZPyK0IEB0hGzo9y5Bp9mYanr8Bu" crossorigin="anonymous"></script>
 </body>

@@ -2,7 +2,6 @@ body {
     color: var(--bs-dark);
 }
 
-
 .conteneur {
     max-width: 1200px;
     margin: auto;
@@ -17,6 +16,8 @@ body {
 
 .form-check-label,
 .noLogin,
-.mdpRules {
+.mdpRules,
+.delivery,
+.minPers {
     font-weight: lighter;
 }
