@@ -30,14 +30,13 @@ body {
 }
 
 /*css du header*/
-.navbar-brand {
-    font-family: var(--font-family-h1-h2);
-    font-size: 4rem;
+.navbar {
+    width: 100%;
 }
 
-.nav-item,
-.dropdown-menu {
-    padding: 3%;
+.navbar-brand {
+    font-family: var(--font-family-h1-h2);
+    font-size: clamp(1.5rem, 5vw, 4rem);
 }
 
 .container-fluid {
