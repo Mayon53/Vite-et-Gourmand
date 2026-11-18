@@ -18,14 +18,14 @@
                         <img class="img-fluid" src="/../Images/BigTitleAccueil.png" alt="">
                     </div>
                     <div class="conteneur col-lg-4">
-                        <div class="lg-p-5 fs-1 pt-3 ps-0 mx- auto text-center text-lg-start">
+                        <div class="lg-p-5 fs-1 pt-3 ps-0 mx-auto text-center text-lg-start">
                             <h2 class="titreBT">BIENVENUE</h2>
                         </div>
                         <div class="conteneur  fs-4 text-center text-lg-start px-2">
                             <p>La cuisine de notre chef s'invite directement à votre table. </br>À emporter, chaud et prêt à déguster !</p>
                         </div>
                         <div class="conteneur  fs-4 text-center text-lg-start p-5">
-                            <a class="btn btn-primary bg-primary border-0 rounded-0 ps-3 pe-3" href="#">CONNEXION</a>
+                            <a class="btn btn-primary bg-primary border-0 rounded-0 ps-3 pe-3" href="/PHP/connexion.php">CONNEXION</a>
                         </div>
                     </div>
                 </div>
